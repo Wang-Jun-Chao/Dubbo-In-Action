@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="01-dubbo-parent" />
+        <module name="02-sample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01-dubbo-parent" target="1.8" />
+      <module name="02-sample" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

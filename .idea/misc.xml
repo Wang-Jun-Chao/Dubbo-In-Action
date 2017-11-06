@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/01-dubbo-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/02-sample/pom.xml" />
       </list>
     </option>
   </component>

@@ -17,6 +17,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="dubbo-demo-api" />
+    <orderEntry type="module" module-name="dubbo-demo-consumer" />
+    <orderEntry type="module" module-name="dubbo-demo-provider" />
     <orderEntry type="library" name="Maven: com.alibaba:dubbo:2.5.7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.10.RELEASE" level="project" />

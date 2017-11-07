@@ -16,6 +16,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: wjc.dubbo:dubbo-demo-api:unknown" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:unknown" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.netty:netty:unknown" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:unknown" level="project" />
+    <orderEntry type="library" name="Maven: com.101tec:zkclient:unknown" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.curator:curator-framework:unknown" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:unknown" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:unknown" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:unknown" level="project" />
+    <orderEntry type="module" module-name="dubbo-demo-provider" />
     <orderEntry type="library" name="Maven: com.alibaba:dubbo:2.5.7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.10.RELEASE" level="project" />
@@ -24,7 +34,5 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.5.Final" level="project" />
   </component>
 </module>

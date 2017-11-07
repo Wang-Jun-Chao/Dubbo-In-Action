@@ -5,6 +5,10 @@
       <list>
         <option value="$PROJECT_DIR$/01-dubbo-parent/pom.xml" />
         <option value="$PROJECT_DIR$/02-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/02-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/02-demo/dubbo-demo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/02-demo/dubbo-demo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/02-demo/dubbo-demo-provider/pom.xml" />
       </list>
     </option>
   </component>

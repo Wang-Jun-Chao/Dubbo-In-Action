@@ -16,6 +16,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+        </dependency>
+        <dependency>
             <groupId>wjc.dubbo</groupId>
             <artifactId>dubbo-demo-api</artifactId>
         </dependency>

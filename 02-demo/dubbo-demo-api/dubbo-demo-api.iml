@@ -5,6 +5,7 @@
       <configuration>
         <fileset id="fileset" name="Dubbo Demo Consumer" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/dubbo-demo-consumer.xml</file>
+          <file>file://$MODULE_DIR$/../dubbo-demo-consumer/src/main/resources/META-INF/spring/dubbo-demo-consumer.xml</file>
         </fileset>
       </configuration>
     </facet>

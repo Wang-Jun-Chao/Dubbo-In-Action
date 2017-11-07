@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: wjc.dubbo:dubbo-demo-api:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/wjc/dubbo/dubbo-demo-api/unknown/dubbo-demo-api-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/wjc/dubbo/dubbo-demo-api/unknown/dubbo-demo-api-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/wjc/dubbo/dubbo-demo-api/unknown/dubbo-demo-api-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

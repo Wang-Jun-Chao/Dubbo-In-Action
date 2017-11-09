@@ -23,7 +23,7 @@
       <module name="02-demo" target="1.8" />
       <module name="02-sample" target="1.8" />
       <module name="03-demo" target="1.7" />
-      <module name="dubbo-common" target="1.8" />
+      <module name="dubbo-common" target="1.7" />
       <module name="dubbo-demo" target="1.8" />
       <module name="dubbo-demo-api" target="1.8" />
       <module name="dubbo-demo-consumer" target="1.8" />

@@ -10,6 +10,7 @@
 
     <properties>
         <!-- Common libs -->
+        <dubbo_version>2.5.7</dubbo_version>
         <spring_version>4.3.10.RELEASE</spring_version>
         <javassist_version>3.20.0-GA</javassist_version>
         <netty_version>3.2.5.Final</netty_version>
@@ -30,7 +31,7 @@
         <thrift_version>0.8.0</thrift_version>
         <jfreechart_version>1.0.13</jfreechart_version>
         <hessian_version>4.0.38</hessian_version>
-        <servlet_version>2.5</servlet_version>
+        <servlet_version>3.1.0</servlet_version>
         <jetty_version>6.1.26</jetty_version>
         <validation_version>1.1.0.Final</validation_version>
         <hibernate_validator_version>5.4.1.Final</hibernate_validator_version>
@@ -51,15 +52,27 @@
         <junit_version>4.12</junit_version>
         <easymock_version>3.4</easymock_version>
         <jmockit_version>1.33</jmockit_version>
-
+        <commons_collection_version>3.2.2</commons_collection_version>
+        <commons_pool_verison>1.6</commons_pool_verison>
         <updateReleaseInfo>true</updateReleaseInfo>
     </properties>
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>${commons_collection_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-pool</groupId>
+                <artifactId>commons-pool</artifactId>
+                <version>${commons_pool_verison}</version>
+            </dependency>
+            <!-- ======================== -->
+            <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>dubbo</artifactId>
-                <version>2.5.7</version>
+                <version>${dubbo_version}</version>
             </dependency>
 
             <dependency>
@@ -171,8 +184,8 @@
             </dependency>
             <dependency>
                 <groupId>javax.servlet</groupId>
-                <artifactId>servlet-api</artifactId>
-                <version>${servlet_version}</version>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>3.1.0</version>
             </dependency>
             <dependency>
                 <groupId>org.mortbay.jetty</groupId>
@@ -287,7 +300,6 @@
                 <artifactId>cglib-nodep</artifactId>
                 <version>${cglib_version}</version>
             </dependency>
-
 
             <dependency>
                 <groupId>org.mybatis</groupId>

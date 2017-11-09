@@ -9,18 +9,26 @@
         <module name="01-dubbo-parent" />
         <module name="02-demo" />
         <module name="02-sample" />
+        <module name="03-demo" />
+        <module name="dubbo-common" />
+        <module name="dubbo-demo" />
         <module name="dubbo-demo-api" />
         <module name="dubbo-demo-consumer" />
         <module name="dubbo-demo-provider" />
+        <module name="dubbo-soa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01-dubbo-parent" target="1.8" />
       <module name="02-demo" target="1.8" />
       <module name="02-sample" target="1.8" />
+      <module name="03-demo" target="1.7" />
+      <module name="dubbo-common" target="1.8" />
+      <module name="dubbo-demo" target="1.8" />
       <module name="dubbo-demo-api" target="1.8" />
       <module name="dubbo-demo-consumer" target="1.8" />
       <module name="dubbo-demo-provider" target="1.8" />
+      <module name="dubbo-soa" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

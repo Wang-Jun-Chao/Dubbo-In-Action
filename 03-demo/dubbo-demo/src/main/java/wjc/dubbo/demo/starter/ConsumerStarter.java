@@ -26,8 +26,9 @@ public class ConsumerStarter {
         String configLocation = "dubbo-consumer.xml";
         ApplicationContext context = new ClassPathXmlApplicationContext(configLocation);
 
-        Object demoService = context.getBean("demoService");
+        DemoService demoService = (DemoService) context.getBean("demoService");
         System.out.println(demoService.getClass().getName() + ".......");
+        System.out.println(demoService.returnHello());
         String[] names = context.getBeanDefinitionNames();
         System.out.println("Beans: >>>>>>>>>>>>>>>>");
         for (String string : names) {

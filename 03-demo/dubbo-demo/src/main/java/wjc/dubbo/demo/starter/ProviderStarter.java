@@ -22,10 +22,9 @@ public class ProviderStarter {
         String configLocation = "dubbo-provider.xml";
         ApplicationContext context = new ClassPathXmlApplicationContext(configLocation);
         String[] names = context.getBeanDefinitionNames();
-        System.out.println("---------------------------Beans:");
+        System.out.println("Beans:>>>>>>>>>>>>>>");
         for (String string : names) {
-            System.out.println(string + ",");
+            System.out.println(string);
         }
-        System.out.println("--------------------------");
     }
 }

@@ -9,10 +9,10 @@ package wjc.dubbo.demo.api;
  */
 public interface DemoService {
 
-    public void sayHello();
+    void sayHello();
 
-    public String returnHello();
+    String returnHello();
 
-    public MsgInfo returnMsgInfo(MsgInfo info);
+    MsgInfo returnMsgInfo(MsgInfo info);
 
 }

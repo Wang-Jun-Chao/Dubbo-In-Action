@@ -7,6 +7,7 @@ import wjc.dubbo.demo.api.MsgInfo;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Author: 王俊超
@@ -25,15 +26,15 @@ public class ConsumerStarter {
         String configLocation = "dubbo-consumer.xml";
         ApplicationContext context = new ClassPathXmlApplicationContext(configLocation);
 
-        DemoService demoService = (DemoService) context.getBean("demoService");
+        Object demoService = context.getBean("demoService");
+        System.out.println(demoService.getClass().getName() + ".......");
         String[] names = context.getBeanDefinitionNames();
-        System.out.print("Beans:");
+        System.out.println("Beans: >>>>>>>>>>>>>>>>");
         for (String string : names) {
-            System.out.print(string);
-            System.out.print(",");
+            System.out.println(string);
         }
 
-        System.out.println("----------------------------------");
+        System.out.println("================");
 
         MsgInfo info = new MsgInfo();
         info.setId(1);
@@ -43,6 +44,6 @@ public class ConsumerStarter {
         msgs.add("dubbo");
         info.setMsgs(msgs);
 
-        System.out.println(demoService.returnMsgInfo(info).getMsgs());
+//        System.out.println(demoService.returnMsgInfo(info).getMsgs());
     }
 }

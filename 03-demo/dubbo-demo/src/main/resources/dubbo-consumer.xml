@@ -7,9 +7,9 @@
         http://code.alibabatech.com/schema/dubbo
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd        ">
 
-    <dubbo:application name="consumer-of-helloworld-app" />
+    <dubbo:application name="consumer-of-hello-world-app" />
 
-    <dubbo:registry protocol="multicast" address="224.5.6.7:1234"/>
+    <dubbo:registry protocol="multicast" address="multicast://224.5.6.7:1234"/>
 
     <dubbo:reference id="demoService" interface="wjc.dubbo.demo.api.DemoService" />
 </beans>

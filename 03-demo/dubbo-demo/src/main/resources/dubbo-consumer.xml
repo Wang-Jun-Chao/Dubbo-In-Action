@@ -9,7 +9,8 @@
 
     <dubbo:application name="consumer-of-hello-world-app" />
 
-    <dubbo:registry protocol="multicast" address="multicast://224.5.6.7:1234"/>
+    <!--<dubbo:registry protocol="multicast" address="multicast://224.5.6.7:1234"/>-->
+    <dubbo:registry protocol="zookeeper" address="localhost:2181"/>
 
     <dubbo:reference id="demoService" interface="wjc.dubbo.demo.api.DemoService" />
 </beans>

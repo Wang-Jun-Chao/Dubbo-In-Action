@@ -10,14 +10,20 @@
         <option value="$PROJECT_DIR$/02-demo/dubbo-demo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/02-demo/dubbo-demo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/03-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/03-demo/dubbo-soa/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
         <option value="$PROJECT_DIR$/03-demo/dubbo-common/pom.xml" />
         <option value="$PROJECT_DIR$/03-demo/dubbo-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/03-demo/dubbo-soa/pom.xml" />
         <option value="$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-api/pom.xml" />
         <option value="$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-client/pom.xml" />
         <option value="$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-server/pom.xml" />
         <option value="$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-service/pom.xml" />
-      </list>
+        <option value="$PROJECT_DIR$/03-demo/dubbo-soa/pom.xml" />
+        <option value="$PROJECT_DIR$/03-demo/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

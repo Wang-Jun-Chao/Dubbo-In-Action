@@ -11,6 +11,10 @@
       <module fileurl="file://$PROJECT_DIR$/02-demo/dubbo-demo-consumer/dubbo-demo-consumer.iml" filepath="$PROJECT_DIR$/02-demo/dubbo-demo-consumer/dubbo-demo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-demo/dubbo-demo-provider/dubbo-demo-provider.iml" filepath="$PROJECT_DIR$/02-demo/dubbo-demo-provider/dubbo-demo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa.iml" filepath="$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-api/dubbo-soa-api.iml" filepath="$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-api/dubbo-soa-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-client/dubbo-soa-client.iml" filepath="$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-client/dubbo-soa-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-server/dubbo-soa-server.iml" filepath="$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-server/dubbo-soa-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-service/dubbo-soa-service.iml" filepath="$PROJECT_DIR$/03-demo/dubbo-soa/dubbo-soa-service/dubbo-soa-service.iml" />
     </modules>
   </component>
 </project>

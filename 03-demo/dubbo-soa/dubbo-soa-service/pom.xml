@@ -6,19 +6,12 @@
 
     <parent>
         <groupId>wjc.dubbo</groupId>
-        <artifactId>03-demo</artifactId>
+        <artifactId>dubbo-soa</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dubbo-soa</artifactId>
+    <artifactId>dubbo-soa-service</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
-    <modules>
-        <module>dubbo-soa-api</module>
-        <module>dubbo-soa-client</module>
-        <module>dubbo-soa-service</module>
-        <module>dubbo-soa-server</module>
-
-    </modules>
+    
 </project>

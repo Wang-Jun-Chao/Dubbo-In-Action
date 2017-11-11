@@ -15,7 +15,10 @@
         <module name="dubbo-demo-api" />
         <module name="dubbo-demo-consumer" />
         <module name="dubbo-demo-provider" />
-        <module name="dubbo-soa" />
+        <module name="dubbo-soa-api" />
+        <module name="dubbo-soa-client" />
+        <module name="dubbo-soa-server" />
+        <module name="dubbo-soa-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,7 +31,11 @@
       <module name="dubbo-demo-api" target="1.8" />
       <module name="dubbo-demo-consumer" target="1.8" />
       <module name="dubbo-demo-provider" target="1.8" />
-      <module name="dubbo-soa" target="1.8" />
+      <module name="dubbo-soa" target="1.7" />
+      <module name="dubbo-soa-api" target="1.7" />
+      <module name="dubbo-soa-client" target="1.7" />
+      <module name="dubbo-soa-server" target="1.7" />
+      <module name="dubbo-soa-service" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
